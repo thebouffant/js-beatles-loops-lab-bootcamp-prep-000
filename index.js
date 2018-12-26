@@ -20,13 +20,13 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-var number = facts.length - 1
+var number
 var newFact = []
 
 function johnLennonFacts(noFact){
-  while (number > -1) {
+  while (number < facts.length) {
   newFact[number] = noFact[number] + "!!!"
-  number = number - 1
+  number = number + 1
   }
   return newFact
 }
