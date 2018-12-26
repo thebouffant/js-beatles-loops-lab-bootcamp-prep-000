@@ -12,10 +12,6 @@ function theBeatlesPlay(musicians, instruments){
 return result
 }
 
-
-
-
-
 function johnLennonFacts(noFact){
   var number = 0
   var newFact = []
