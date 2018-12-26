@@ -20,7 +20,7 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-var number
+var number = 0
 var newFact = []
 
 function johnLennonFacts(noFact){
