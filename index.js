@@ -17,7 +17,7 @@ function johnLennonFacts(noFact){
   var newFact = []
   while (number < noFact.length) {
   newFact[number] = noFact[number] + "!!!"
-  number = number + 1
+  number++
   }
   return newFact
 }
@@ -27,7 +27,7 @@ function iLoveTheBeatles(number){
   var whatsThis = []
   do {
   whatsThis.push("I love the Beatles!")
-  number = number + 1
+  number++
   
 } while (number < 15);
   
