@@ -18,6 +18,7 @@ var number = 0
 var newFact = []
 
 function johnLennonFacts(noFact){
+  var newFact = []
   while (number < noFact.length) {
   newFact[number] = noFact[number] + "!!!"
   number = number + 1
