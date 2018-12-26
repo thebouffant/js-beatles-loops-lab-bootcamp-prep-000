@@ -33,21 +33,3 @@ function iLoveTheBeatles(number){
   
   return whatsThis
 }
-
-
-
-var i = 0;
- 
-function incrementVariable() {
-  i = i + 1;
-}
-
-function doWhileLoop(array){
-  
-  do {
-  array.shift();
-  incrementVariable();
-  
-} while (array.length > 0 && incrementVariable());
-  return array
-}
