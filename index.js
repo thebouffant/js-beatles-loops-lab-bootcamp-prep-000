@@ -14,10 +14,10 @@ return result
 
 
 
-var number = 0
-var newFact = []
+
 
 function johnLennonFacts(noFact){
+  var number = 0
   var newFact = []
   while (number < noFact.length) {
   newFact.push(noFact[number] + "!!!")
